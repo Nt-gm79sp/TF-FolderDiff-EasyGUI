@@ -18,9 +18,13 @@ Visual Studio 自带了文件夹比对功能，可惜的是并没有放在易用
 此外，（当前版本）VS内置的GUI中，文件过滤器的默认参数有错误，少了分号，本程序中使用了修正后的参数。
 
 原参数：
->!bin\;!bld\;!ClientBin\;!Debug\;!obj\;!AppPackages\;!Release\;!TestResults\;!*.*~!*.appx!*.appxrecipe;!*.cache!*.cer!*.dbmdl!*.dll!*.docstates!*.docstates.suo;!*.err!*.exe!*.ilk!*.ipch!*.lastbuildstate!*.lce!*.ldf!*.lib!*.log!*.mdf!*.msscci!*.ncb!*.obj!*.opensdf!*.pch!*.pdb!*.pri!*.res!*.resources!*.sdf!*.suo!*.swp!*.temp!*.tfOrig*!*.tlog!*.tmp!*.trx!*.user!*.unsuccessfulbuild!*.v11.suo!*.vcxproj.user!*.vsix!*.vsmdi!*.vspscc!*.vssettings!*.vssscc!*.wrn!*.xap;!.metadata\
+```
+!bin\;!bld\;!ClientBin\;!Debug\;!obj\;!AppPackages\;!Release\;!TestResults\;!*.*~!*.appx!*.appxrecipe;!*.cache!*.cer!*.dbmdl!*.dll!*.docstates!*.docstates.suo;!*.err!*.exe!*.ilk!*.ipch!*.lastbuildstate!*.lce!*.ldf!*.lib!*.log!*.mdf!*.msscci!*.ncb!*.obj!*.opensdf!*.pch!*.pdb!*.pri!*.res!*.resources!*.sdf!*.suo!*.swp!*.temp!*.tfOrig*!*.tlog!*.tmp!*.trx!*.user!*.unsuccessfulbuild!*.v11.suo!*.vcxproj.user!*.vsix!*.vsmdi!*.vspscc!*.vssettings!*.vssscc!*.wrn!*.xap;!.metadata\
+```
 
 修正后的参数：
->!bin\;!bld\;!ClientBin\;!Debug\;!obj\;!AppPackages\;!Release\;!TestResults\;!*.*~;!*.appx;!*.appxrecipe;!*.cache;!*.cer;!*.dbmdl;!*.dll;!*.docstates;!*.docstates.suo;!*.err;!*.exe;!*.ilk;!*.ipch;!*.lastbuildstate;!*.lce;!*.ldf;!*.lib;!*.log;!*.mdf;!*.msscci;!*.ncb;!*.obj;!*.opensdf;!*.pch;!*.pdb;!*.pri;!*.res;!*.resources;!*.sdf;!*.suo;!*.swp;!*.temp;!*.tfOrig*;!*.tlog;!*.tmp;!*.trx;!*.user;!*.unsuccessfulbuild;!*.v11.suo;!*.vcxproj.user;!*.vsix;!*.vsmdi;!*.vspscc;!*.vssettings;!*.vssscc;!*.wrn;!*.xap;!.metadata\
+```
+!bin\;!bld\;!ClientBin\;!Debug\;!obj\;!AppPackages\;!Release\;!TestResults\;!*.*~;!*.appx;!*.appxrecipe;!*.cache;!*.cer;!*.dbmdl;!*.dll;!*.docstates;!*.docstates.suo;!*.err;!*.exe;!*.ilk;!*.ipch;!*.lastbuildstate;!*.lce;!*.ldf;!*.lib;!*.log;!*.mdf;!*.msscci;!*.ncb;!*.obj;!*.opensdf;!*.pch;!*.pdb;!*.pri;!*.res;!*.resources;!*.sdf;!*.suo;!*.swp;!*.temp;!*.tfOrig*;!*.tlog;!*.tmp;!*.trx;!*.user;!*.unsuccessfulbuild;!*.v11.suo;!*.vcxproj.user;!*.vsix;!*.vsmdi;!*.vspscc;!*.vssettings;!*.vssscc;!*.wrn;!*.xap;!.metadata\
+```
 
 Love Visual Studio!
