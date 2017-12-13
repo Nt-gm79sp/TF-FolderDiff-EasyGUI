@@ -11,7 +11,7 @@ namespace TF_FolderDiff_EasyGUI
         bool isRecursive = true;
         string strRecursive = " /recursive";
         bool isFiltered = true;
-        string strFiltered = @" /filter:!bin\;!bld\;!ClientBin\;!Debug\;!obj\;!AppPackages\;!Release\;!TestResults\;!*.*~;!*.appx;!*.appxrecipe;!*.cache;!*.cer;!*.dbmdl;!*.dll;!*.docstates;!*.docstates.suo;!*.err;!*.exe;!*.ilk;!*.ipch;!*.lastbuildstate;!*.lce;!*.ldf;!*.lib;!*.log;!*.mdf;!*.msscci;!*.ncb;!*.obj;!*.opensdf;!*.pch;!*.pdb;!*.pri;!*.res;!*.resources;!*.sdf;!*.suo;!*.swp;!*.temp;!*.tfOrig*;!*.tlog;!*.tmp;!*.trx;!*.user;!*.unsuccessfulbuild;!*.v11.suo;!*.vcxproj.user;!*.vsix;!*.vsmdi;!*.vspscc;!*.vssettings;!*.vssscc;!*.wrn;!*.xap;!.metadata\";
+        string strFiltered = @" /filter:!bin\;!bld\;!ClientBin\;!Debug\;!obj\;!AppPackages\;!Release\;!TestResults\;!*.*~;!*.appx;!*.appxrecipe;!*.cache;!*.cer;!*.dbmdl;!*.dll;!*.docstates;!*.docstates.suo;!*.err;!*.exe;!*.ilk;!*.ipch;!*.lastbuildstate;!*.lce;!*.ldf;!*.lib;!*.log;!*.mdf;!*.msscci;!*.ncb;!*.obj;!*.opensdf;!*.pch;!*.pdb;!*.pri;!*.res;!*.resources;!*.sdf;!*.suo;!*.swp;!*.temp;!*.tfOrig*;!*.tlog;!*.tmp;!*.trx;!*.user;!*.unsuccessfulbuild;!*.v11.suo;!*.vcxproj.user;!*.vsix;!*.vsmdi;!*.vspscc;!*.vssettings;!*.vssscc;!*.wrn;!*.xap;!.metadata\;!.vs\;!.git\";
         bool isShowSame = false;
         string strShowSame = " /view:same,different,sourceOnly,targetOnly";
         string strDontShowSame = " /view:different,sourceOnly,targetOnly";
@@ -32,8 +32,8 @@ namespace TF_FolderDiff_EasyGUI
                                 " \"" + textBox1.Text + "\"" +
                                 " \"" + textBox2.Text + "\"" +
                                 (isRecursive ? strRecursive : "") +
-                                (isFiltered ? strFiltered : "") +
-                                (isShowSame ? strShowSame : strDontShowSame);
+                                (isShowSame ? strShowSame : strDontShowSame) +
+                                (isFiltered ? strFiltered : "");
         }
 
         private void buttonOpen1_Click(object sender, RoutedEventArgs e)
