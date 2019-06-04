@@ -43,7 +43,7 @@
                    VerticalAlignment="Center"/>
         <TextBox Grid.Row="4" Grid.Column="2" x:Name="textBox0" 
                  TextWrapping="Wrap" AcceptsReturn="False"
-                 Text="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe"/>
+                 Text="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe"/>
         <Button Grid.Row="4" Grid.Column="4" x:Name="buttonOpen0" 
                 Content="打开" Click="buttonOpen0_Click"/>
 
